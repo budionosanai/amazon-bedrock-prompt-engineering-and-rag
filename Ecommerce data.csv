@@ -1,0 +1,9 @@
+Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,City,State,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+CA-2016-152156,42682,11/11/2016,Second Class,CG-12520,Claire Gute,Consumer,Henderson,Kentucky,FUR-BO-10001798,Furniture,Bookcases,Bush Somerset Collection Bookcase,261.96,2,0,41.9136
+CA-2016-152156,42682,11/11/2016,Second Class,CG-12520,Claire Gute,Consumer,Henderson,Kentucky,FUR-CH-10000454,Furniture,Chairs,"Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back",731.94,3,0,219.582
+US-2015-108966,42288,18/10/2015,Standard Class,SO-20335,Sean O'Donnell,Consumer,Fort Lauderdale,Florida,FUR-TA-10000577,Furniture,Tables,Bretford CR4500 Series Slim Rectangular Table,957.5775,5,0.45,-383.031
+US-2015-108966,42288,18/10/2015,Standard Class,SO-20335,Sean O'Donnell,Consumer,Fort Lauderdale,Florida,OFF-ST-10000760,Office Supplies,Storage,Eldon Fold 'N Roll Cart System,22.368,2,0.2,2.5164
+CA-2017-114412,42840,20/4/2017,Standard Class,AA-10480,Andrew Allen,Consumer,Concord,North Carolina,OFF-PA-10002365,Office Supplies,Paper,Xerox 1967,15.552,3,0.2,5.4432
+CA-2017-139619,42997,23/9/2017,Standard Class,ES-14080,Erin Smith,Corporate,Melbourne,Florida,OFF-ST-10003282,Office Supplies,Storage,"Advantus 10-Drawer Portable Organizer, Chrome Metal Frame, Smoke Drawers",95.616,2,0.2,9.5616
+CA-2016-119823,42525,6/6/2016,First Class,KD-16270,Karen Daniels,Consumer,Springfield,Virginia,OFF-PA-10000482,Office Supplies,Paper,"Snap-A-Way Black Print Carbonless Ruled Speed Letter, Triplicate",75.88,2,0,35.6636
+CA-2015-114415,42845,20/4/2015,Standard Class,AA-10485,Budiono Santoso,Consumer,New York City, New York,OFF-PA-10002355,Office Supplies,Paper,New Paper High Quality,15.555,3,0.2,5.4432
