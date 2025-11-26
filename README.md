@@ -8,6 +8,14 @@
 
 **NOTE :** Before try this repository, get Pinecone host key to can connect to Amazon Bedrock, then store Pinecone host key to AWS Secret Manager.
 
+## Amazon Bedrock x Pinecone x Langchain
+
+**[pineconeandlangchain.ipynb(./pineconeandlangchain.ipynb)** : RAG (retrieval augmented generation) using **Amazon Nova Lite** with financial customer service use case based [this dataset](./fcsdataset.csv)
+
 **Reference :** 
 
 1. https://docs.pinecone.io/integrations/amazon-bedrock
+
+2. https://python.langchain.com/docs/integrations/vectorstores/pinecone
+
+3. https://python.langchain.com/docs/integrations/providers/aws
