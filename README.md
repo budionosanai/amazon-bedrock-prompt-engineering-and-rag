@@ -10,7 +10,7 @@
 
 ## Amazon Bedrock x Pinecone x Langchain
 
-**[pineconeandlangchain.ipynb(./pineconeandlangchain.ipynb)** : RAG (retrieval augmented generation) using **Amazon Nova Lite** with financial customer service use case based [this dataset](./fcsdataset.csv)
+**[pineconeandlangchain.ipynb](./pineconeandlangchain.ipynb)** : RAG (retrieval augmented generation) using **Amazon Nova Lite** with financial customer service use case based [this dataset](./fcsdataset.csv)
 
 **Reference :** 
 
