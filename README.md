@@ -30,9 +30,12 @@ cd amazon-bedrock-prompt-engineering-and-rag
 3. If notebook have Python environment that store such as `load_dotenv("....txt")`, create Python environment using python-dotenv, you can see this [link.](https://pypi.org/project/python-dotenv/) then write your AWS key and Pinecone API key in a Notepad file, then save the file with the name `....txt`.
 
 4. Open, run and following this notebooks :
-  * **[promptEngineeringNova.ipynb](./promptEngineeringNova.ipynb)** -> in this notebook, I using **Amazon SageMaker** notebook because want to try the SageMaker notebook feature, alternative can using **Google Colab**.
-  * **[knowledgebaseAgent.ipynb](./knowledgebaseAgent.ipynb)** -> in this notebook, I using **Google Colab**.
-  * **[pineconeandlangchain.ipynb](./pineconeandlangchain.ipynb)** -> in this notebook, I using **Google Colab**.
+
+| File / Notebook | Using |
+| :--- | :--- |
+| **[promptEngineeringNova.ipynb](./promptEngineeringNova.ipynb)** | **Amazon SageMaker** but alternatively you can use **Google Colab**. |
+| **[knowledgebaseAgent.ipynb](./knowledgebaseAgent.ipynb)** | **Amazon SageMaker** but alternatively you can use **Google Colab**. |
+| **[pineconeandlangchain.ipynb](./pineconeandlangchain.ipynb)** | **Google Colab**. |
 
 ## ⚠️ Warnings
 
