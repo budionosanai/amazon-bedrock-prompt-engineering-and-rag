@@ -39,7 +39,7 @@ cd amazon-bedrock-prompt-engineering-and-rag
 
 ## ⚠️ Warnings
 
-**Ensure securely your API keys such as AWS key and Pinecone API key — DO NOT HARDCORE them in notebooks.**
+**Ensure securely API keys such as AWS key and Pinecone API key — DO NOT HARDCORE them in notebooks.**
 
 ## 📚 Resources
 
@@ -50,4 +50,4 @@ cd amazon-bedrock-prompt-engineering-and-rag
 
 ## 🙏 Acknowledgments
 
-**Amazon Web Services, Pinecone and Langchain**
+**Amazon Web Services, Pinecone, Langchain and Google Colab**
