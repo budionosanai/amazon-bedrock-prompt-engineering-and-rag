@@ -1,21 +1,50 @@
-## Amazon Bedrock Prompt Engineering
+## 📁 Project Structure
 
-**[promptEngineeringNova.ipynb](./promptEngineeringNova.ipynb)** : prompt engineering using **Amazon Nova Lite**.
+| File / Notebook | Description |
+| :--- | :--- |
+| `promptEngineeringNova.ipynb` | Notebook of prompt engineering using **Amazon Nova** on **Amazon Bedrock**. |
+| `knowledgebaseAgent.ipynb` | Notebook of RAG (retrieval augmented generation) using **Knowledge Base** and **Agent** on **Amazon Bedrock**, **AWS Secret Manager**, **Amazon Titan Embedding**, **Amazon S3** and **Pinecone**. |
+| `pineconeandlangchain.ipynb` | Notebook of RAG (retrieval augmented generation) using **Amazon Nova**, **LangChain** and **Pinecone** for financial customer service use case. |
+| `fcsdataset.csv` | Financial customer service dataset used in the `knowledgebaseAgent.ipynb` and `pineconeandlangchain.ipynb`. |
+| `Always Winner CV.pdf` | Sample PDF file used in the `promptEngineeringNova.ipynb`. |
+| `bedrock.png` and `receipts.jpg` | Sample image/photo file used in the `promptEngineeringNova.ipynb`. |
 
-## Amazon Bedrock Knowledge Base and Agent
+## ✅ Prerequisites
 
-**[knowledgebaseAgent.ipynb](./knowledgebaseAgent.ipynb)** : RAG (Retrieval Augmented Generation) using **Amazon Bedrock** features such as **Bedrock Knowledge Base** and **Bedrock Agent**, **AWS Secret Manager** to store Pinecone host key, **Amazon Titan Embedding** to embedding, **Amazon S3** to store knowledge base and **Pinecone** to vector storage.
+1.  **Amazon Web Services (AWS)**: Access to **Amazon Bedrock**, **AWS Secret Manager** and **Amazon S3**, you can sign up/sign in [here.](https://console.aws.amazon.com)
 
-**NOTE :** Before try this repository, get Pinecone host key to can connect to Amazon Bedrock, then store Pinecone host key to AWS Secret Manager.
+2.  **Pinecone**: Access to create vector database, you can sign up/sign in [here.](https://pinecone.io)
 
-## Amazon Bedrock x Pinecone x Langchain
+3.  **Langchain**: Access to create RAG (retrieval augmented generation) application.
 
-**[pineconeandlangchain.ipynb](./pineconeandlangchain.ipynb)** : RAG (retrieval augmented generation) using **Amazon Nova Lite** with financial customer service use case based [this dataset](./fcsdataset.csv)
+## 🚀 Getting Started
 
-**Reference :** 
+1. Clone this repository
+```bash
+git clone https://github.com/budionosanai/amazon-bedrock-prompt-engineering-and-rag.git
+cd amazon-bedrock-prompt-engineering-and-rag
+```
 
-1. https://docs.pinecone.io/integrations/amazon-bedrock
+2. Create Pinecone API key and Pinecone serverless index then store Pinecone API key in AWS Secret Manager, you can see this [link.](https://dev.to/budionosan/amazon-bedrock-knowledge-base-and-agent-hik)
 
-2. https://python.langchain.com/docs/integrations/vectorstores/pinecone
+3. If notebook have Python environment that store such as `load_dotenv("....txt")`, create Python environment using python-dotenv, you can see this [link.](https://pypi.org/project/python-dotenv/) then write your AWS key and Pinecone API key in a Notepad file, then save the file with the name `....txt`.
 
-3. https://python.langchain.com/docs/integrations/providers/aws
+4. Open, run and following this notebooks :
+  * **[promptEngineeringNova.ipynb](./promptEngineeringNova.ipynb)** -> in this notebook, I using **Amazon SageMaker** notebook because want to try the SageMaker notebook feature, alternative can using **Google Colab**.
+  * **[knowledgebaseAgent.ipynb](./knowledgebaseAgent.ipynb)** -> in this notebook, I using **Google Colab**.
+  * **[pineconeandlangchain.ipynb](./pineconeandlangchain.ipynb)** -> in this notebook, I using **Google Colab**.
+
+## ⚠️ Warnings
+
+**Ensure securely your API keys such as AWS key and Pinecone API key — DO NOT HARDCORE them in notebooks.**
+
+## 📚 Resources
+
+* [Prompt Engineering, Amazon Bedrock (Knowledge Base and Agent) and Amazon Nova documentation](https://docs.aws.amazon.com/bedrock/)
+* [Integration between Pinecone and Amazon Bedrock documentation](https://docs.pinecone.io/integrations/amazon-bedrock/)
+* [Pinecone in Langchain documentation](https://python.langchain.com/docs/integrations/vectorstores/pinecone/)
+* [AWS in Langchain documentation](https://python.langchain.com/docs/integrations/providers/aws/)
+
+## 🙏 Acknowledgments
+
+**Amazon Web Services, Pinecone and Langchain**
