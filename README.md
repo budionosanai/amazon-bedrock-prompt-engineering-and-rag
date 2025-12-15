@@ -1,4 +1,4 @@
-## 📁 Project Structure
+## 📁 Repository Structure
 
 | File / Notebook | Description |
 | :--- | :--- |
@@ -27,17 +27,17 @@ cd amazon-bedrock-prompt-engineering-and-rag
 
 2. Create Pinecone API key and Pinecone serverless index then store Pinecone API key in AWS Secret Manager, you can see this [link.](https://dev.to/budionosan/amazon-bedrock-knowledge-base-and-agent-hik)
 
-3. If notebook have Python environment that store such as `load_dotenv("....txt")`, create Python environment using python-dotenv, you can see this [link.](https://pypi.org/project/python-dotenv/) then write your AWS key and Pinecone API key in a Notepad file, then save the file with the name `....txt`.
+3. Open, run and following this notebooks :
 
-4. Open, run and following this notebooks :
-
-| File / Notebook | Using |
+| Notebook | Using |
 | :--- | :--- |
 | **[promptEngineeringNova.ipynb](./promptEngineeringNova.ipynb)** | **Amazon SageMaker** but alternatively you can use **Google Colab**. |
 | **[knowledgebaseAgent.ipynb](./knowledgebaseAgent.ipynb)** | **Amazon SageMaker** but alternatively you can use **Google Colab**. |
 | **[pineconeandlangchain.ipynb](./pineconeandlangchain.ipynb)** | **Google Colab**. |
 
-## ⚠️ Warnings
+4. If notebook have Python environment that store such as `load_dotenv("....txt")`, create Python environment using python-dotenv, you can see this [link.](https://pypi.org/project/python-dotenv/) then write your AWS key and Pinecone API key in a Notepad file, then save the file with the name `....txt`.
+
+## ⚠️ Warning
 
 **Ensure securely API keys such as AWS key and Pinecone API key — DO NOT HARDCORE them in notebooks.**
 
